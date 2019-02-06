@@ -1,0 +1,5 @@
+export JUPYTER_CONFIG_DIR=$HOME/.handouts/jupyter
+jupyter nbextension install full_width --user --py 
+jupyter nbextension enable full_width --user --py
+jupyter trust *.ipynb
+rm -rf conda-bld
