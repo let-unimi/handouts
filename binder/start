@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export JUPYTER_CONFIG_DIR=$HOME/.handouts/jupyter
-export ANTLR4_JAR=$HOME/.handouts/libs/antlr-4.7.1-complete.jar
+export ANTLR4_JAR=$HOME/.handouts/libs/antlr-4.7.2-complete.jar
 export PYTHONPATH=$HOME/.handouts/libs/liblet-0.2.2-alpha.zip
 
 exec "$@"
