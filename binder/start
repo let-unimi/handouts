@@ -2,6 +2,6 @@
 
 export JUPYTER_CONFIG_DIR=$HOME/.handouts/jupyter
 export ANTLR4_JAR=$HOME/.handouts/libs/antlr-4.7.2-complete.jar
-export PYTHONPATH=$HOME/.handouts/libs/liblet-0.4.0-alpha.zip
+export PYTHONPATH=$HOME/.handouts/libs/liblet-0.5.0-alpha.zip
 
 exec "$@"
