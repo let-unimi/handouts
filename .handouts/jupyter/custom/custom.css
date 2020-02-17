@@ -1,0 +1,12 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+
+@font-face {
+  font-family: "Laffayette Comic Pro";
+  src: url("laffayette_comic_pro.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+.CodeMirror pre {font-family: "Fira Code";}
+div.output_area pre {font-family: "Fira Code";}
+h1, h2, h3, h4, h5, h6 {font-family: "Laffayette Comic Pro";}
