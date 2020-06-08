@@ -115,3 +115,8 @@ def make_binary(G):
         else:
             prods.add(Production(A, α))
     return Grammar(G.N | {A for A, α in prods}, G.T, prods, G.S)
+
+def to_cnf(G):
+    Gp = eliminate_unit_rules(eliminate_ε_rules(G))
+    Gp_clean = remove_unproductive_unreachable(Gp)
+    return make_binary(transform_nonsolitary(Gp_clean))
