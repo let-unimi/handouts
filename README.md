@@ -8,7 +8,7 @@ Questo repository contiene gli *handout* dell'insegnamento di [Linguaggi e
 traduttori](https://let.di.unimi.it/) dell'[Università degli Studi di
 Milano](http://www.unimi.it/).
 
-Il materiale di questo repository (aggiornato periodicamente) consiste nella
+Il materiale di questo repository (aggiornato periodicamente) consisterà nella
 collezione dei *notebook* del docente sostanzialmente nella forma in cui si
 trovano al termine di ciascuna lezione. Per questa ragione il suo contenuto
 **non è assolutamente inteso come sostituivo dei libri di testo e della
@@ -18,3 +18,9 @@ ripercorrere i passi visti a lezione** (poiché i notebook sono nella maggior
 parte dei casi *privi di commenti* e *non sono corredati da alcun testo
 esplicativo*, risulteranno probabilmente incomprensibili per chi non ha
 frequentato le lezioni).
+
+## Il materiale degli scorsi anni accademici
+
+Gli studenti che hanno frequentato nei precedenti anno accademico possono
+trovare il materiale negli [appositi
+branch](https://github.com/prog2-unimi/handouts/branches) di questo repository.
