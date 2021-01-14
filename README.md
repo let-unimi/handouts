@@ -23,4 +23,4 @@ frequentato le lezioni).
 
 Gli studenti che hanno frequentato nei precedenti anno accademico possono
 trovare il materiale negli [appositi
-branch](https://github.com/prog2-unimi/handouts/branches) di questo repository.
+branch](https://github.com/let-unimi/handouts/branches) di questo repository.
