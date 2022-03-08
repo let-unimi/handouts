@@ -8,7 +8,7 @@ traduttori](https://let.di.unimi.it/) dell'[Università degli Studi di
 Milano](http://www.unimi.it/).
 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/prog2-unimi/esercitazioni)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/let-unimi/handouts)
 
 Il materiale di questo repository (aggiornato periodicamente) consisterà nella
 collezione dei *notebook* del docente sostanzialmente nella forma in cui si
