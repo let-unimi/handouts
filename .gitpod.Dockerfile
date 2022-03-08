@@ -6,4 +6,6 @@ RUN sudo apt-get update \
 
 RUN pip install antlr4-python3-runtime graphviz liblet \
     && install_antlrjar \
-    && echo 'export ANTLR4_JAR=/workspace/liblet/jars/antlr-4.9.3-complete.jar' >> /home/gitpod/.bashrc.d/00-liblet
+    && echo 'export ANTLR4_JAR=/workspace/handouts/jars/antlr-4.9.3-complete.jar' >> /home/gitpod/.bashrc.d/00-liblet
+
+ENV ANTLR4_JAR=/workspace/handouts/jars/antlr-4.9.3-complete.jar
