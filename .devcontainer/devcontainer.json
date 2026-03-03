@@ -1,0 +1,21 @@
+{
+  "name": "LibLet + LLVM",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {}
+  },
+  "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
+  "remoteEnv": {
+    "ANTLR4_JAR": "${containerWorkspaceFolder}/jars/antlr-4.13.2-complete.jar",
+    "LLVM_VERSION": "11"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}
