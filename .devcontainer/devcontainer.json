@@ -4,7 +4,9 @@
   "features": {
     "ghcr.io/devcontainers/features/java:1": {}
   },
+  "appPort": ["127.0.0.1:8888:8888"],
   "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
+  "postStartCommand": "setsid --fork jupyter lab > /tmp/jupyter.log 2>&1",
   "remoteEnv": {
     "ANTLR4_JAR": "${containerWorkspaceFolder}/jars/antlr-4.13.2-complete.jar",
     "LLVM_VERSION": "11"
